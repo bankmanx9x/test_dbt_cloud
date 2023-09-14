@@ -1,9 +1,7 @@
 version: 2
 
 sources:
-  - name: jaffle_shop
+  - name: sales_data
     schema: public
     tables:
-      - name: jaffle_shop_orders
-      - name: jaffle_shop_customers
-      - name: stripe_payments
+      - name: saledata
